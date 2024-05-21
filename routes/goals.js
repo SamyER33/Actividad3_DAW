@@ -24,7 +24,7 @@ router.delete('/removeGoals/:id', function(req, res, next) {
   if (req.params && req.params.id) {
     let id = req.params.id;
     let initialLength = goals.length;
-    goals = goals.filter(goal => goal.id !== id);
+    goals = goals.filter(goal => goal.name !== id);
     if (goals.length === initialLength) {
       return res.status(400).json({ error: 'ID de meta no encontrado' });
     }
