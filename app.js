@@ -5,6 +5,9 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var cors = require('cors');
 
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost:27017/desarrolloweb')
+
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var goalsRouter = require('./routes/goals');

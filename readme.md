@@ -1,4 +1,18 @@
 
+## Actividad No.5 - Desarrollo de Aplicaciones Web
+
+1. Se realizó la instalación de mongoose.
+2. Se hicieron modificaciones en:
+    - app.js
+    - tasks.js * Acá dejé con // parte de mi código en router.delete, ya que tenía un planteamiento diferente al suyo, quisiera me pudiera ayudar, para dejar el planteamiento que tenía con la actualización de mongodb *
+    - goals.js * Acá dejé con // parte de mi código en router.delete, ya que tenía un planteamiento diferente al suyo, quisiera me pudiera ayudar, para dejar el planteamiento que tenía con la actualización de mongodb *
+3. Se utilizó MongoDB como base de datos.
+    - Se inició MongoDB desde símbolo de sistema para que funcionara la app ToDoList.
+4. Se utilizó la ruta 'mongodb://localhost:27017/desarrolloweb'
+5. Para ésta actividad no se realizaron cambios en el frontend.
+
+
+
 ## Actividad No.4 - Desarrollo de Aplicaciones Web
 
 Instrucciones para iniciar el proyecto:
